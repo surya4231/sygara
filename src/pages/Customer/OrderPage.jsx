@@ -18,7 +18,7 @@ const OrderPage = () => {
                 <Container>
                     <Link to="/cart" className="text-success"><FontAwesomeIcon icon={faAngleLeft} />Kembali ke ke Keranjang</Link>
                     <h1 className="text-success mt-3">Check Out</h1>
-                    
+
                     <Form action="/payment">
                         <Row className="mt-3">
                             <Col lg={6}>
